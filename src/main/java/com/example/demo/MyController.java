@@ -13,4 +13,9 @@ public class MyController {
     public String test(){
         return "This is a test";
     }
+
+    @RequestMapping("/test2")
+    public String test2(){
+        return "This is a test2test2test2test2";
+    }
 }
